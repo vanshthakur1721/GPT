@@ -1,0 +1,42 @@
+#page {
+   min-height: 100vh;
+ width: 100%;
+background-color: rgba(230, 223, 230, 0.667);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#footer{
+    height: 70vh;
+    width: 60vh;
+    border: 2px solid black;
+   display: flex;
+   flex-direction: column;
+  
+   align-items: center;
+   justify-content: center;
+   
+text-align: center;
+
+border-radius: 15px;
+
+}
+#text{
+    position: relative;
+    top: -35%;
+}
+
+
+
+
+#page  #footer input{
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+    width: 33vh;
+    height: 3vh;
+   margin-bottom: 10px;
+    border: 2px solid black;
+   
+    padding:1vw 5vw;
+}
